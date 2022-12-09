@@ -4,7 +4,7 @@ import json
 import time
 
 # Specify the file path
-df = pd.read_excel("./FilesCsv/TEST123.xlsx") 
+df = pd.read_excel("FILE-NAME.xlsx") 
 
 for i, row in df.iterrows():
 
@@ -55,7 +55,7 @@ for i, row in df.iterrows():
     print('\n')
 
 #Saving the result output note: Specify the file path
-    df.to_excel('./Output/TEST123.xlsx')
+    df.to_excel('FILE-NAME.xlsx')
 
 
 
